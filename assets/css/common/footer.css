@@ -1,0 +1,21 @@
+.footer {
+    height: 205px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    bottom: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-footer{
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 50%;
+}
+
+.logo-crescer{
+    align-self: flex-end;
+}

@@ -1,0 +1,223 @@
+/* styles.css */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&display=swap);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    font-size: 14px;
+    color: white;
+    line-height: 29px; 
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(255, 255, 255);
+    color: #898989;
+}
+
+.pages{
+    padding-top: 60px;
+}
+
+.content{
+    padding: 0 10%;
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.banner{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner-img{
+    position: absolute;
+    background-image: url("../../img/banner-contato.png");
+    background-color: #001C40;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+.content-banner{
+    position: relative;
+    align-self: flex-start;
+    width: 478px;
+    padding-bottom: 45px;
+    padding-top: 50px;
+}
+
+.about{
+    height: 335px;
+    transform: translateY(-100%);
+}
+
+.content-about{
+    min-height: 100vh;
+    flex-direction: column;
+    z-index: -1;
+}
+
+.rectangle{
+    position: relative;
+    width: 100%;
+    height: 559px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.forms{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 40px 40px;
+}
+
+h3{
+    color: #133E72;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 75px;
+}
+
+.options{
+    flex-direction: row;
+}
+
+.label{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+placeholder{
+    color: #A9A9A9;
+    position: relative;
+}
+
+.input{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-bottom: 10px;
+    border: 0;
+    border-bottom: solid 1px #D7D7D7;
+    outline: 0;
+}
+
+option{
+    color: #A9A9A9;
+}
+
+select{
+    color: #A9A9A9;
+}
+
+.mensagem{
+    width: 100%;
+}
+
+textarea{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-bottom: 10px;
+    border: 0;
+    border-bottom: solid 1px #D7D7D7;
+    max-width: 100%;
+    color: #A9A9A9;
+}
+
+.adress{
+    width: 30%;
+    height: 100%;
+    background: #1B4377;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.info-contact{
+    color: white;
+    margin: 0;
+    padding-bottom: 110px;
+}
+
+.group-adress{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding-bottom: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content-contact{
+    padding-left: 16px;
+    line-height: 20px;
+}
+
+
